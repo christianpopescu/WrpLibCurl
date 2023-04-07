@@ -13,10 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Wrapper">
+      <UniqueIdentifier>{ac6007bc-c6e9-466e-b5f9-152a18172ed1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SandboxWrapperLibCurl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Wrapper\SimpleGet.cpp">
+      <Filter>Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Wrapper\OsFile.cpp">
+      <Filter>Wrapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Wrapper\SimpleGet.h">
+      <Filter>Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Wrapper\OsFile.h">
+      <Filter>Wrapper</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
